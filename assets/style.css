@@ -1,0 +1,96 @@
+:root { 
+    --black: #040b0b;
+    --darknavy: #242832;
+    --darkteal: #0b3e55;
+    --teal: #2db0de;
+    --lightteal: #115779;
+    --white: #fff;
+    --gray: #3a3a3a;
+    --lightgray: #dbdbdb;
+    --font1: 'Roboto', sans-serif;
+}
+
+* {    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--gray);
+}
+header {
+    height: 40px;
+}
+
+.headerList {
+    display: flex; 
+   flex-direction: row;
+   justify-content: center;
+}
+
+.headerList div {
+    margin: 50px;
+    margin-top: 17px;
+    font-family: var(--font1);
+    font-size: 14px;
+    color: var(--lightgray);
+}
+
+/* .headerList div {
+    width: 60px;
+    height: 9px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 14px;
+    color: var(--lightgray);
+
+} */
+
+.bg-container {
+    background-image: url("./images/Group 4.png");
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.header-name {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    top: 370px;
+    text-indent: 20px;
+    line-height: 150px;
+    font-family: var(--font1);
+    font-size: 80px;
+    position: relative;
+
+}
+
+
+.name-list {
+    display: flex;
+    flex-direction: row;
+    top: 360px;
+    margin-right: 1140px;
+    justify-content: center ;
+    position: relative;
+} 
+
+.listNames {
+    font-family: var(--font1);
+    font-size: 20px;
+}
+
+.LH1 {
+    margin-right: 90px;
+}
